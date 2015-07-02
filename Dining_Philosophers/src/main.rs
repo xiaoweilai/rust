@@ -10,10 +10,12 @@ impl Philosopher {
     }
 }
 
+
+
 fn main() {
-    let p1 = Philosopher::new("Baruch Spinoza");
-    let p2 = Philosopher::new("Gilles Deleuze");
-    let p3 = Philosopher::new("Karl Marx");
-    let p4 = Philosopher::new("Friedrich Nietzsche");
-    let p5 = Philosopher::new("Michel Foucault");
+    let p1 = Philosopher { name: "Baruch Spinoza".to_string() };
+    let p2 = Philosopher { name: "Gilles Deleuze".to_string() };
+    let p3 = Philosopher { name: "Karl Marx".to_string() };
+    let p4 = Philosopher { name: "Friedrich Nietzche".to_string() };
+    let p5 = Philosopher { name: "Michel Foucault".to_string() };
 }
